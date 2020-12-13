@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.dev.raghavYadaviyam"
+        versionCode = "1"
+        version     = "1.0.0" >
+    <name>Raghav Yadaviyam</name>
+    <description>
+    	Raghav Yadaviyam is an app that lets you interactively read the 30 verses of Shri Raghav Yadaviyam, by flipping various 'cards'; enjoying the beautiful design of the app and extreme wonder of this Sanskrit work. 
+    </description>
+    <author href="" email="manan.dsvv@gmail.com">
+    	dev
+    </author>
+    <preference name="phonegap-version" value="3.7.0" />
+    <!--default icon -->
+    <icon src="icon.png"/>
+	<icon src="images/icons/icon-small.png" gap:platform="android" gap:qualifier="ldpi" />
+	<icon src="images/icons/icon-small.png" gap:platform="android" gap:qualifier="mdpi" />
+	<icon src="images/icons/icon-medium.png" gap:platform="android" gap:qualifier="hdpi" />
+	<icon src="images/icons/icon-medium.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<icon src="images/icons/icon-big.png" gap:platform="android" gap:qualifier="xxhdpi" />
+	<icon src="images/icons/icon-big.png" gap:platform="android" gap:qualifier="fr-xxhdpi" /> 
+
+	<!-- default splash screen -->
+     <gap:splash src="splash.9.png"/>
+    	<gap:splash src="images/splash/drawable-mdpi/splash.9.png" gap:platform="android" gap:qualifier="ldpi" />
+	<gap:splash src="images/splash/drawable-mdpi/splash.9.png" gap:platform="android" gap:qualifier="mdpi" />
+	<gap:splash src="images/splash/drawable-hdpi/splash.9.png" gap:platform="android" gap:qualifier="hdpi" />
+	<gap:splash src="images/splash/drawable-xhdpi/splash.9.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<gap:splash src="images/splash/drawable-xxhdpi/splash.9.png" gap:platform="android" gap:qualifier="fr-xhdpi" />
+	<gap:splash src="images/splash/drawable-xxxdpi/splash.9.png" gap:platform="android" gap:qualifier="port-xxhdpi" />
+	<gap:splash src="images/splash/drawable-xxxdpi/splash.9.png" gap:platform="android" gap:qualifier="land-xxhdpi" />
+    <preference name="SplashScreenDelay" value="3000"/>
+
+</widget>
